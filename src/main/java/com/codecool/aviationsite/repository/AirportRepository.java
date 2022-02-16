@@ -19,12 +19,12 @@ public class AirportRepository {
                 .id("EGLM")
                 .name("White Waltham Airfield")
                 .numberOfAsphaltRunways(0)
-                .numberOfGrassRunways(3));
+                .numberOfGrassRunways(3).build());
         add(Airport.builder()
                 .id("EGSC")
                 .name("Cambridge City Airport")
                 .numberOfAsphaltRunways(1)
-                .numberOfGrassRunways(2));
+                .numberOfGrassRunways(2).build());
 
     }};
 

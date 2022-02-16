@@ -1,7 +1,7 @@
 package com.codecool.aviationsite.entity;
 
 public class Airplane {
-    private String id;
+    private int id;
     private String type;
     private String baseAirportId;
     private int fuelInPercent;
