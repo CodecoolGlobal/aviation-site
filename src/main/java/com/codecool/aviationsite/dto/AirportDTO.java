@@ -1,8 +1,10 @@
 package com.codecool.aviationsite.dto;
 
+import lombok.Data;
+
+@Data
 public class AirportDTO {
-    private String type;
-    private String baseAirportId;
-    private int fuelInPercent;
-    private int totalFlightHours;
+    private String name;
+    private int numberOfAsphaltRunways;
+    private int numberOfGrassRunways;
 }
